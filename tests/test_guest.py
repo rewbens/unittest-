@@ -16,7 +16,7 @@ class TestGuest(unittest.TestCase):
         self.assertEqual(500, self.guest.cash)
 
     def test_guest_has_favourite_song(self):
-        self.assertEqual("Heartbeats", self.guest.favourite_song.artist)
+        self.assertEqual("Amy Winehouse", self.guest.favourite_song.artist)
 
 if __name__ == "__main__":
     unittest.main()
